@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1001,
+    "product_name": "Laptop Dell XPS",
+    "price": 18500000,
+    "stock": 15,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-01-15"
+  },
+  {
+    "id": 1002,
+    "product_name": "MacBook Air M2",
+    "price": 21000000,
+    "stock": 8,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-02-20"
+  },
+  {
+    "id": 1003,
+    "product_name": "Logitech Mouse G502",
+    "price": 1200000,
+    "stock": 45,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-03-05"
+  },
+  {
+    "id": 1004,
+    "product_name": "Keychron K2",
+    "price": 1500000,
+    "stock": 12,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-03-10"
+  },
+  {
+    "id": 1005,
+    "product_name": "Samsung Monitor 27",
+    "price": 3500000,
+    "stock": 20,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-12-04"
+  },
+  {
+    "id": 1006,
+    "product_name": "Asus ROG Phone",
+    "price": 12000000,
+    "stock": 5,
+    "vendor": "Asus Global",
+    "date_added": "2023-05-22"
+  },
+  {
+    "id": 1007,
+    "product_name": "Iphone 14 Pro",
+    "price": 19000000,
+    "stock": 10,
+    "vendor": "Apple Authorised",
+    "date_added": "2023-06-01"
+  },
+  {
+    "id": 1008,
+    "product_name": "Sony WH-1000XM5",
+    "price": 4500000,
+    "stock": 18,
+    "vendor": "Sony Audio",
+    "date_added": "2023-07-15"
+  },
+  {
+    "id": 1009,
+    "product_name": "SteelSeries Apex",
+    "price": 2500000,
+    "stock": 7,
+    "vendor": "SteelSeries Indo",
+    "date_added": "2023-08-10"
+  },
+  {
+    "id": 1010,
+    "product_name": "WD External 1TB",
+    "price": 900000,
+    "stock": 50,
+    "vendor": "WD Storage",
+    "date_added": "2023-08-12"
+  },
+  {
+    "id": 1011,
+    "product_name": "Razer Deathadder",
+    "price": 800000,
+    "stock": 30,
+    "vendor": "Razer Official",
+    "date_added": "2023-09-01"
+  },
+  {
+    "id": 1012,
+    "product_name": "iPad Pro 11",
+    "price": 15500000,
+    "stock": 6,
+    "vendor": "Apple Authorised",
+    "date_added": "2023-09-15"
+  },
+  {
+    "id": 1013,
+    "product_name": "Epson L3210",
+    "price": 2400000,
+    "stock": 14,
+    "vendor": "Unknown Vendor",
+    "date_added": "2023-10-02"
+  },
+  {
+    "id": 1014,
+    "product_name": "Bose QuietComfort",
+    "price": 3800000,
+    "stock": 11,
+    "vendor": "Bose Retail",
+    "date_added": "2023-10-10"
+  },
+  {
+    "id": 1015,
+    "product_name": "Canon EOS R10",
+    "price": 14000000,
+    "stock": 3,
+    "vendor": "Canon Optic",
+    "date_added": "2023-11-20"
+  },
+  {
+    "id": 1016,
+    "product_name": "HyperX Cloud II",
+    "price": 1300000,
+    "stock": 25,
+    "vendor": "HyperX Gaming",
+    "date_added": "2023-11-25"
+  },
+  {
+    "id": 1017,
+    "product_name": "Nintendo Switch",
+    "price": 4200000,
+    "stock": 9,
+    "vendor": "Nintendo ID",
+    "date_added": "2023-12-05"
+  },
+  {
+    "id": 1018,
+    "product_name": "PlayStation 5",
+    "price": 8500000,
+    "stock": 4,
+    "vendor": "Sony Entert",
+    "date_added": "2023-12-12"
+  },
+  {
+    "id": 1019,
+    "product_name": "Xbox Series S",
+    "price": 4500000,
+    "stock": 12,
+    "vendor": "Microsoft Store",
+    "date_added": "2023-12-20"
+  },
+  {
+    "id": 1020,
+    "product_name": "Kindle Paperwhite",
+    "price": 2100000,
+    "stock": 15,
+    "vendor": "Amazon Global",
+    "date_added": "2023-12-25"
+  },
+  {
+    "id": 1021,
+    "product_name": "GoPro Hero 11",
+    "price": 7500000,
+    "stock": 10,
+    "vendor": "GoPro Indo",
+    "date_added": "2024-01-05"
+  },
+  {
+    "id": 1022,
+    "product_name": "DJI Mini 3 Pro",
+    "price": 12000000,
+    "stock": 5,
+    "vendor": "DJI Official",
+    "date_added": "2024-01-10"
+  },
+  {
+    "id": 1023,
+    "product_name": "TP-Link Router",
+    "price": 450000,
+    "stock": 40,
+    "vendor": "TP-Link Store",
+    "date_added": "2024-01-15"
+  },
+  {
+    "id": 1024,
+    "product_name": "Corsair RAM 16GB",
+    "price": 1100000,
+    "stock": 22,
+    "vendor": "Unknown Vendor",
+    "date_added": "2024-01-20"
+  },
+  {
+    "id": 1025,
+    "product_name": "Samsung S23 Ultra",
+    "price": 17500000,
+    "stock": 7,
+    "vendor": "Samsung Parts",
+    "date_added": "2024-02-01"
+  },
+  {
+    "id": 1026,
+    "product_name": "MSI Optix G24",
+    "price": 2800000,
+    "stock": 15,
+    "vendor": "MSI Gaming",
+    "date_added": "2024-02-14"
+  },
+  {
+    "id": 1027,
+    "product_name": "GSkill Trident Z",
+    "price": 1800000,
+    "stock": 20,
+    "vendor": "GSkill Indo",
+    "date_added": "2024-02-25"
+  },
+  {
+    "id": 1028,
+    "product_name": "Seagate IronWolf",
+    "price": 3200000,
+    "stock": 12,
+    "vendor": "Seagate Official",
+    "date_added": "2024-03-01"
+  },
+  {
+    "id": 1029,
+    "product_name": "Crucial P5 SSD",
+    "price": 1400000,
+    "stock": 30,
+    "vendor": "Crucial Tech",
+    "date_added": "2024-03-15"
+  },
+  {
+    "id": 1030,
+    "product_name": "Gigabyte RTX 3060",
+    "price": 5500000,
+    "stock": 4,
+    "vendor": "Gigabyte Indo",
+    "date_added": "2024-03-20"
+  },
+  {
+    "id": 1031,
+    "product_name": "Be Quiet Cooler",
+    "price": 1100000,
+    "stock": 18,
+    "vendor": "BeQuiet Official",
+    "date_added": "2024-04-01"
+  },
+  {
+    "id": 1032,
+    "product_name": "NZXT H510 Case",
+    "price": 1300000,
+    "stock": 10,
+    "vendor": "NZXT Store",
+    "date_added": "2024-04-05"
+  },
+  {
+    "id": 1033,
+    "product_name": "EVGA Supernova",
+    "price": 1900000,
+    "stock": 8,
+    "vendor": "Unknown Vendor",
+    "date_added": "2024-04-12"
+  },
+  {
+    "id": 1034,
+    "product_name": "Zotac Magnus EN",
+    "price": 14000000,
+    "stock": 2,
+    "vendor": "Zotac Official",
+    "date_added": "2024-04-20"
+  },
+  {
+    "id": 1035,
+    "product_name": "Palit RTX 4070",
+    "price": 10500000,
+    "stock": 6,
+    "vendor": "Palit Tech",
+    "date_added": "2024-05-01"
+  },
+  {
+    "id": 1036,
+    "product_name": "Inno3D GTX 1650",
+    "price": 2200000,
+    "stock": 25,
+    "vendor": "Inno3D Indo",
+    "date_added": "2024-05-10"
+  },
+  {
+    "id": 1037,
+    "product_name": "Aorus Master Z790",
+    "price": 6800000,
+    "stock": 4,
+    "vendor": "Aorus Gaming",
+    "date_added": "2024-05-15"
+  },
+  {
+    "id": 1038,
+    "product_name": "ASRock B550M",
+    "price": 1500000,
+    "stock": 40,
+    "vendor": "ASRock Official",
+    "date_added": "2024-05-22"
+  },
+  {
+    "id": 1039,
+    "product_name": "Lian Li Uni Fan",
+    "price": 450000,
+    "stock": 60,
+    "vendor": "Lian Li Store",
+    "date_added": "2024-06-01"
+  },
+  {
+    "id": 1040,
+    "product_name": "Phanteks Evolv",
+    "price": 2500000,
+    "stock": 5,
+    "vendor": "Phanteks Indo",
+    "date_added": "2024-06-12"
+  },
+  {
+    "id": 1041,
+    "product_name": "Thermaltake Tough",
+    "price": 1700000,
+    "stock": 12,
+    "vendor": "Thermaltake Off",
+    "date_added": "2024-06-20"
+  },
+  {
+    "id": 1042,
+    "product_name": "Cooler Master MWE",
+    "price": 950000,
+    "stock": 35,
+    "vendor": "Cooler Master ID",
+    "date_added": "2024-07-01"
+  },
+  {
+    "id": 1043,
+    "product_name": "Silverstone SFX",
+    "price": 1800000,
+    "stock": 9,
+    "vendor": "Unknown Vendor",
+    "date_added": "2024-07-05"
+  },
+  {
+    "id": 1044,
+    "product_name": "FSP Hydro G Pro",
+    "price": 1600000,
+    "stock": 14,
+    "vendor": "FSP Power",
+    "date_added": "2024-07-15"
+  },
+  {
+    "id": 1045,
+    "product_name": "Seasonics Focus",
+    "price": 2100000,
+    "stock": 10,
+    "vendor": "Seasonic Official",
+    "date_added": "2024-07-25"
+  },
+  {
+    "id": 1046,
+    "product_name": "Deepcool AK620",
+    "price": 950000,
+    "stock": 20,
+    "vendor": "Deepcool Indo",
+    "date_added": "2024-08-01"
+  },
+  {
+    "id": 1047,
+    "product_name": "Noctua NH-D15",
+    "price": 1600000,
+    "stock": 7,
+    "vendor": "Noctua Tech",
+    "date_added": "2024-08-10"
+  },
+  {
+    "id": 1048,
+    "product_name": "Arctic P12 Fan",
+    "price": 150000,
+    "stock": 100,
+    "vendor": "Arctic Official",
+    "date_added": "2024-08-15"
+  },
+  {
+    "id": 1049,
+    "product_name": "Scythe Fuma 2",
+    "price": 1100000,
+    "stock": 15,
+    "vendor": "Scythe Indo",
+    "date_added": "2024-08-22"
+  },
+  {
+    "id": 1050,
+    "product_name": "ID-Cooling SE",
+    "price": 450000,
+    "stock": 50,
+    "vendor": "ID-Cooling Store",
+    "date_added": "2024-09-01"
+  },
+  {
+    "id": 1051,
+    "product_name": "Western Digital Blue",
+    "price": 850000,
+    "stock": 40,
+    "vendor": "WD Storage",
+    "date_added": "2024-09-05"
+  },
+  {
+    "id": 1052,
+    "product_name": "Kingston A400",
+    "price": 450000,
+    "stock": 80,
+    "vendor": "Kingston Official",
+    "date_added": "2024-09-12"
+  },
+  {
+    "id": 1053,
+    "product_name": "SanDisk Ultra",
+    "price": 1200000,
+    "stock": 25,
+    "vendor": "SanDisk Indo",
+    "date_added": "2024-09-20"
+  },
+  {
+    "id": 1054,
+    "product_name": "TeamGroup Elite",
+    "price": 950000,
+    "stock": 30,
+    "vendor": "TeamGroup Store",
+    "date_added": "2024-09-25"
+  },
+  {
+    "id": 1055,
+    "product_name": "Silicon Power",
+    "price": 750000,
+    "stock": 45,
+    "vendor": "Unknown Vendor",
+    "date_added": "2024-10-01"
+  },
+  {
+    "id": 1056,
+    "product_name": "Patriot Viper",
+    "price": 1400000,
+    "stock": 18,
+    "vendor": "Patriot Official",
+    "date_added": "2024-10-05"
+  },
+  {
+    "id": 1057,
+    "product_name": "ADATA XPG",
+    "price": 1800000,
+    "stock": 22,
+    "vendor": "ADATA Tech",
+    "date_added": "2024-10-10"
+  },
+  {
+    "id": 1058,
+    "product_name": "Hikvision E100",
+    "price": 400000,
+    "stock": 60,
+    "vendor": "Hikvision Store",
+    "date_added": "2024-10-15"
+  },
+  {
+    "id": 1059,
+    "product_name": "Lexar NM620",
+    "price": 1100000,
+    "stock": 20,
+    "vendor": "Lexar Official",
+    "date_added": "2024-10-22"
+  },
+  {
+    "id": 1060,
+    "product_name": "Pioneer SSD",
+    "price": 900000,
+    "stock": 35,
+    "vendor": "Pioneer Indo",
+    "date_added": "2024-10-30"
+  },
+  {
+    "id": 1061,
+    "product_name": "Transcend Jet",
+    "price": 1600000,
+    "stock": 12,
+    "vendor": "Transcend Official",
+    "date_added": "2024-11-01"
+  },
+  {
+    "id": 1062,
+    "product_name": "Netac N535S",
+    "price": 450000,
+    "stock": 55,
+    "vendor": "Netac Tech",
+    "date_added": "2024-11-08"
+  },
+  {
+    "id": 1063,
+    "product_name": "Colorful SL500",
+    "price": 420000,
+    "stock": 70,
+    "vendor": "Colorful Indo",
+    "date_added": "2024-11-15"
+  },
+  {
+    "id": 1064,
+    "product_name": "Galax RTX 3050",
+    "price": 4500000,
+    "stock": 8,
+    "vendor": "Unknown Vendor",
+    "date_added": "2024-11-20"
+  },
+  {
+    "id": 1065,
+    "product_name": "Leadtek T1000",
+    "price": 6500000,
+    "stock": 3,
+    "vendor": "Leadtek Store",
+    "date_added": "2024-11-28"
+  },
+  {
+    "id": 1066,
+    "product_name": "PNY Quadro T400",
+    "price": 3500000,
+    "stock": 5,
+    "vendor": "PNY Official",
+    "date_added": "2024-12-01"
+  },
+  {
+    "id": 1067,
+    "product_name": "Orico HDD Dock",
+    "price": 450000,
+    "stock": 25,
+    "vendor": "Orico Store",
+    "date_added": "2024-12-05"
+  },
+  {
+    "id": 1068,
+    "product_name": "UGREEN USB Hub",
+    "price": 250000,
+    "stock": 100,
+    "vendor": "UGREEN Official",
+    "date_added": "2024-12-12"
+  },
+  {
+    "id": 1069,
+    "product_name": "Baseus GaN",
+    "price": 550000,
+    "stock": 40,
+    "vendor": "Baseus Indo",
+    "date_added": "2024-12-18"
+  },
+  {
+    "id": 1070,
+    "product_name": "Anker PowerPort",
+    "price": 750000,
+    "stock": 30,
+    "vendor": "Anker Official",
+    "date_added": "2024-12-25"
+  },
+  {
+    "id": 1071,
+    "product_name": "Aukey Wall",
+    "price": 450000,
+    "stock": 45,
+    "vendor": "Aukey Tech",
+    "date_added": "2024-12-30"
+  },
+  {
+    "id": 1072,
+    "product_name": "Choetech PD",
+    "price": 350000,
+    "stock": 60,
+    "vendor": "Choetech Indo",
+    "date_added": "2025-01-05"
+  },
+  {
+    "id": 1073,
+    "product_name": "Belkin Boost",
+    "price": 850000,
+    "stock": 20,
+    "vendor": "Belkin Official",
+    "date_added": "2025-01-10"
+  },
+  {
+    "id": 1074,
+    "product_name": "Mophie Juice",
+    "price": 1100000,
+    "stock": 12,
+    "vendor": "Unknown Vendor",
+    "date_added": "2025-01-15"
+  },
+  {
+    "id": 1075,
+    "product_name": "Apple MagSafe",
+    "price": 950000,
+    "stock": 50,
+    "vendor": "Apple Authorised",
+    "date_added": "2025-01-22"
+  },
+  {
+    "id": 1076,
+    "product_name": "Samsung Wireless",
+    "price": 750000,
+    "stock": 35,
+    "vendor": "Samsung Parts",
+    "date_added": "2025-01-28"
+  },
+  {
+    "id": 1077,
+    "product_name": "Xiaomi Mi Band 7",
+    "price": 650000,
+    "stock": 80,
+    "vendor": "Xiaomi Official",
+    "date_added": "2025-02-02"
+  },
+  {
+    "id": 1078,
+    "product_name": "Huawei Band 8",
+    "price": 550000,
+    "stock": 70,
+    "vendor": "Huawei Store",
+    "date_added": "2025-02-10"
+  },
+  {
+    "id": 1079,
+    "product_name": "Amazfit Bip 3",
+    "price": 850000,
+    "stock": 40,
+    "vendor": "Amazfit Indo",
+    "date_added": "2025-02-18"
+  },
+  {
+    "id": 1080,
+    "product_name": "Garmin Forerunner",
+    "price": 3500000,
+    "stock": 15,
+    "vendor": "Garmin Official",
+    "date_added": "2025-02-25"
+  },
+  {
+    "id": 1081,
+    "product_name": "Suunto 9 Peak",
+    "price": 9500000,
+    "stock": 5,
+    "vendor": "Suunto Store",
+    "date_added": "2025-03-01"
+  },
+  {
+    "id": 1082,
+    "product_name": "Polar Vantage",
+    "price": 7500000,
+    "stock": 8,
+    "vendor": "Polar Official",
+    "date_added": "2025-03-08"
+  },
+  {
+    "id": 1083,
+    "product_name": "Casio G-Shock",
+    "price": 2500000,
+    "stock": 25,
+    "vendor": "Unknown Vendor",
+    "date_added": "2025-03-15"
+  },
+  {
+    "id": 1084,
+    "product_name": "Seiko 5 Sport",
+    "price": 3800000,
+    "stock": 10,
+    "vendor": "Seiko Indo",
+    "date_added": "2025-03-22"
+  },
+  {
+    "id": 1085,
+    "product_name": "Fossil Gen 6",
+    "price": 4500000,
+    "stock": 12,
+    "vendor": "Fossil Official",
+    "date_added": "2025-03-28"
+  },
+  {
+    "id": 1086,
+    "product_name": "TicWatch Pro",
+    "price": 3500000,
+    "stock": 18,
+    "vendor": "TicWatch Indo",
+    "date_added": "2025-04-01"
+  },
+  {
+    "id": 1087,
+    "product_name": "Withings Steel",
+    "price": 2800000,
+    "stock": 20,
+    "vendor": "Withings Tech",
+    "date_added": "2025-04-05"
+  },
+  {
+    "id": 1088,
+    "product_name": "Fitbit Charge 5",
+    "price": 2100000,
+    "stock": 30,
+    "vendor": "Fitbit Store",
+    "date_added": "2025-04-12"
+  },
+  {
+    "id": 1089,
+    "product_name": "Wahoo Elemnt",
+    "price": 4500000,
+    "stock": 7,
+    "vendor": "Wahoo Official",
+    "date_added": "2025-04-20"
+  },
+  {
+    "id": 1090,
+    "product_name": "Bryton Rider",
+    "price": 1800000,
+    "stock": 15,
+    "vendor": "Bryton Indo",
+    "date_added": "2025-04-28"
+  },
+  {
+    "id": 1091,
+    "product_name": "Cateye Velo",
+    "price": 350000,
+    "stock": 50,
+    "vendor": "Cateye Store",
+    "date_added": "2025-05-01"
+  },
+  {
+    "id": 1092,
+    "product_name": "Sennheiser HD600",
+    "price": 6500000,
+    "stock": 4,
+    "vendor": "Sennheiser Off",
+    "date_added": "2025-05-10"
+  },
+  {
+    "id": 1093,
+    "product_name": "Beyerdynamic DT",
+    "price": 3500000,
+    "stock": 9,
+    "vendor": "Unknown Vendor",
+    "date_added": "2025-05-15"
+  },
+  {
+    "id": 1094,
+    "product_name": "Audio Technica M50x",
+    "price": 2800000,
+    "stock": 20,
+    "vendor": "AT Official",
+    "date_added": "2025-05-22"
+  },
+  {
+    "id": 1095,
+    "product_name": "AKG K701",
+    "price": 4200000,
+    "stock": 6,
+    "vendor": "AKG Indo",
+    "date_added": "2025-06-01"
+  },
+  {
+    "id": 1096,
+    "product_name": "Shure SE215",
+    "price": 1800000,
+    "stock": 35,
+    "vendor": "Shure Store",
+    "date_added": "2025-06-08"
+  },
+  {
+    "id": 1097,
+    "product_name": "FiiO K5 Pro",
+    "price": 3200000,
+    "stock": 12,
+    "vendor": "FiiO Official",
+    "date_added": "2025-06-15"
+  },
+  {
+    "id": 1098,
+    "product_name": "Topping DX3",
+    "price": 2800000,
+    "stock": 15,
+    "vendor": "Topping Indo",
+    "date_added": "2025-06-22"
+  },
+  {
+    "id": 1099,
+    "product_name": "Ifi Zen DAC",
+    "price": 3500000,
+    "stock": 10,
+    "vendor": "Ifi Audio",
+    "date_added": "2025-06-28"
+  },
+  {
+    "id": 1100,
+    "product_name": "JDS Labs Atom",
+    "price": 1800000,
+    "stock": 20,
+    "vendor": "JDS Labs Store",
+    "date_added": "2025-07-01"
+  }
+]

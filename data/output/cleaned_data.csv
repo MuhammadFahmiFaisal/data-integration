@@ -1,0 +1,101 @@
+id,product_name,price,stock,vendor,date_added
+1001,Laptop Dell XPS,18500000,15,Unknown Vendor,2023-01-15
+1002,MacBook Air M2,21000000,8,Unknown Vendor,2023-02-20
+1003,Logitech Mouse G502,1200000,45,Unknown Vendor,2023-03-05
+1004,Keychron K2,1500000,12,Unknown Vendor,2023-03-10
+1005,Samsung Monitor 27,3500000,20,Unknown Vendor,2023-12-04
+1006,Asus ROG Phone,12000000,5,Asus Global,2023-05-22
+1007,Iphone 14 Pro,19000000,10,Apple Authorised,2023-06-01
+1008,Sony WH-1000XM5,4500000,18,Sony Audio,2023-07-15
+1009,SteelSeries Apex,2500000,7,SteelSeries Indo,2023-08-10
+1010,WD External 1TB,900000,50,WD Storage,2023-08-12
+1011,Razer Deathadder,800000,30,Razer Official,2023-09-01
+1012,iPad Pro 11,15500000,6,Apple Authorised,2023-09-15
+1013,Epson L3210,2400000,14,Unknown Vendor,2023-10-02
+1014,Bose QuietComfort,3800000,11,Bose Retail,2023-10-10
+1015,Canon EOS R10,14000000,3,Canon Optic,2023-11-20
+1016,HyperX Cloud II,1300000,25,HyperX Gaming,2023-11-25
+1017,Nintendo Switch,4200000,9,Nintendo ID,2023-12-05
+1018,PlayStation 5,8500000,4,Sony Entert,2023-12-12
+1019,Xbox Series S,4500000,12,Microsoft Store,2023-12-20
+1020,Kindle Paperwhite,2100000,15,Amazon Global,2023-12-25
+1021,GoPro Hero 11,7500000,10,GoPro Indo,2024-01-05
+1022,DJI Mini 3 Pro,12000000,5,DJI Official,2024-01-10
+1023,TP-Link Router,450000,40,TP-Link Store,2024-01-15
+1024,Corsair RAM 16GB,1100000,22,Unknown Vendor,2024-01-20
+1025,Samsung S23 Ultra,17500000,7,Samsung Parts,2024-02-01
+1026,MSI Optix G24,2800000,15,MSI Gaming,2024-02-14
+1027,GSkill Trident Z,1800000,20,GSkill Indo,2024-02-25
+1028,Seagate IronWolf,3200000,12,Seagate Official,2024-03-01
+1029,Crucial P5 SSD,1400000,30,Crucial Tech,2024-03-15
+1030,Gigabyte RTX 3060,5500000,4,Gigabyte Indo,2024-03-20
+1031,Be Quiet Cooler,1100000,18,BeQuiet Official,2024-04-01
+1032,NZXT H510 Case,1300000,10,NZXT Store,2024-04-05
+1033,EVGA Supernova,1900000,8,Unknown Vendor,2024-04-12
+1034,Zotac Magnus EN,14000000,2,Zotac Official,2024-04-20
+1035,Palit RTX 4070,10500000,6,Palit Tech,2024-05-01
+1036,Inno3D GTX 1650,2200000,25,Inno3D Indo,2024-05-10
+1037,Aorus Master Z790,6800000,4,Aorus Gaming,2024-05-15
+1038,ASRock B550M,1500000,40,ASRock Official,2024-05-22
+1039,Lian Li Uni Fan,450000,60,Lian Li Store,2024-06-01
+1040,Phanteks Evolv,2500000,5,Phanteks Indo,2024-06-12
+1041,Thermaltake Tough,1700000,12,Thermaltake Off,2024-06-20
+1042,Cooler Master MWE,950000,35,Cooler Master ID,2024-07-01
+1043,Silverstone SFX,1800000,9,Unknown Vendor,2024-07-05
+1044,FSP Hydro G Pro,1600000,14,FSP Power,2024-07-15
+1045,Seasonics Focus,2100000,10,Seasonic Official,2024-07-25
+1046,Deepcool AK620,950000,20,Deepcool Indo,2024-08-01
+1047,Noctua NH-D15,1600000,7,Noctua Tech,2024-08-10
+1048,Arctic P12 Fan,150000,100,Arctic Official,2024-08-15
+1049,Scythe Fuma 2,1100000,15,Scythe Indo,2024-08-22
+1050,ID-Cooling SE,450000,50,ID-Cooling Store,2024-09-01
+1051,Western Digital Blue,850000,40,WD Storage,2024-09-05
+1052,Kingston A400,450000,80,Kingston Official,2024-09-12
+1053,SanDisk Ultra,1200000,25,SanDisk Indo,2024-09-20
+1054,TeamGroup Elite,950000,30,TeamGroup Store,2024-09-25
+1055,Silicon Power,750000,45,Unknown Vendor,2024-10-01
+1056,Patriot Viper,1400000,18,Patriot Official,2024-10-05
+1057,ADATA XPG,1800000,22,ADATA Tech,2024-10-10
+1058,Hikvision E100,400000,60,Hikvision Store,2024-10-15
+1059,Lexar NM620,1100000,20,Lexar Official,2024-10-22
+1060,Pioneer SSD,900000,35,Pioneer Indo,2024-10-30
+1061,Transcend Jet,1600000,12,Transcend Official,2024-11-01
+1062,Netac N535S,450000,55,Netac Tech,2024-11-08
+1063,Colorful SL500,420000,70,Colorful Indo,2024-11-15
+1064,Galax RTX 3050,4500000,8,Unknown Vendor,2024-11-20
+1065,Leadtek T1000,6500000,3,Leadtek Store,2024-11-28
+1066,PNY Quadro T400,3500000,5,PNY Official,2024-12-01
+1067,Orico HDD Dock,450000,25,Orico Store,2024-12-05
+1068,UGREEN USB Hub,250000,100,UGREEN Official,2024-12-12
+1069,Baseus GaN,550000,40,Baseus Indo,2024-12-18
+1070,Anker PowerPort,750000,30,Anker Official,2024-12-25
+1071,Aukey Wall,450000,45,Aukey Tech,2024-12-30
+1072,Choetech PD,350000,60,Choetech Indo,2025-01-05
+1073,Belkin Boost,850000,20,Belkin Official,2025-01-10
+1074,Mophie Juice,1100000,12,Unknown Vendor,2025-01-15
+1075,Apple MagSafe,950000,50,Apple Authorised,2025-01-22
+1076,Samsung Wireless,750000,35,Samsung Parts,2025-01-28
+1077,Xiaomi Mi Band 7,650000,80,Xiaomi Official,2025-02-02
+1078,Huawei Band 8,550000,70,Huawei Store,2025-02-10
+1079,Amazfit Bip 3,850000,40,Amazfit Indo,2025-02-18
+1080,Garmin Forerunner,3500000,15,Garmin Official,2025-02-25
+1081,Suunto 9 Peak,9500000,5,Suunto Store,2025-03-01
+1082,Polar Vantage,7500000,8,Polar Official,2025-03-08
+1083,Casio G-Shock,2500000,25,Unknown Vendor,2025-03-15
+1084,Seiko 5 Sport,3800000,10,Seiko Indo,2025-03-22
+1085,Fossil Gen 6,4500000,12,Fossil Official,2025-03-28
+1086,TicWatch Pro,3500000,18,TicWatch Indo,2025-04-01
+1087,Withings Steel,2800000,20,Withings Tech,2025-04-05
+1088,Fitbit Charge 5,2100000,30,Fitbit Store,2025-04-12
+1089,Wahoo Elemnt,4500000,7,Wahoo Official,2025-04-20
+1090,Bryton Rider,1800000,15,Bryton Indo,2025-04-28
+1091,Cateye Velo,350000,50,Cateye Store,2025-05-01
+1092,Sennheiser HD600,6500000,4,Sennheiser Off,2025-05-10
+1093,Beyerdynamic DT,3500000,9,Unknown Vendor,2025-05-15
+1094,Audio Technica M50x,2800000,20,AT Official,2025-05-22
+1095,AKG K701,4200000,6,AKG Indo,2025-06-01
+1096,Shure SE215,1800000,35,Shure Store,2025-06-08
+1097,FiiO K5 Pro,3200000,12,FiiO Official,2025-06-15
+1098,Topping DX3,2800000,15,Topping Indo,2025-06-22
+1099,Ifi Zen DAC,3500000,10,Ifi Audio,2025-06-28
+1100,JDS Labs Atom,1800000,20,JDS Labs Store,2025-07-01

@@ -7,6 +7,9 @@
   "scripts": {
     "start1": "node apps/part1-sql/index.js",
     "start2": "node apps/part2-json/index.js",
+    "start3": "node apps/part3-xml/index.js",
+    "start4": "node apps/re-integrate/index.js",
+    "start5": "node apps/data-cleaning/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

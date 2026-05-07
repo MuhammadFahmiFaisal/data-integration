@@ -52,8 +52,9 @@ fs.createReadStream(CSV_PATH)
   .pipe(csv())
   .on("data", (row) => {
     try {
+      const productId = row.id || row["\ufeffid"] || row["﻿id"];
       insertStmt.run(
-        Number(row.id),
+        Number(productId),
         row.product_name,
         Number(row.price)
       )

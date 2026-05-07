@@ -64,10 +64,25 @@ cd data-integration
 pnpm install
 ```
 
-### 3. Run Part 1 for the first time
+### 3. Run Data Pipeline Steps
+
+Jalankan setiap tahap pipeline data secara berurutan menggunakan perintah berikut:
 
 ```bash
+# Part 1: SQL Ingestion (SQLite)
 pnpm start1
+
+# Part 2: JSON Conversion
+pnpm start2
+
+# Part 3: XML Export
+pnpm start3
+
+# Part 4: Re-integration
+pnpm start4
+
+# Part 5: Data Cleaning (Final Output)
+pnpm start5
 ```
 
 
@@ -186,21 +201,141 @@ data/json/operational_data.json
 
 ---
 
-## 🔜 Next Steps (Not Implemented Yet)
+## 🧠 Part 3 – XML
 
-### Part 3 – XML
+### 🎯 Objective
 
-* Simpan sisa data
-* Kosongkan 5 nilai vendor
+Menyimpan sisa data relasional operasional ke format XML, serta mengosongkan 5 nilai vendor awal untuk keperluan pengujian pembersihan data (data cleaning) di tahap berikutnya:
 
-### Re-integrate
+* id
+* vendor (dikosongkan untuk 5 record pertama)
+* date_added (format mentah dari CSV)
 
-* Gabungkan semua data menjadi satu tabel
+---
 
-### Data Cleaning
+### ⚙️ Workflow
 
-* Isi vendor kosong → `"Unknown Vendor"`
-* Format tanggal → `YYYY-MM-DD`
+```text
+CSV → Read Stream → Empty First 5 Vendors → Build XML → Write XML File
+```
+
+---
+
+### 📄 Penjelasan File
+
+#### `apps/part3-xml/index.js`
+
+| Section             | Fungsi                                              |
+| ------------------- | --------------------------------------------------- |
+| Path Setup          | Menentukan lokasi CSV & folder XML                  |
+| Read CSV            | Parsing CSV data menggunakan `csv-parser`           |
+| Empty Vendors       | Mengosongkan nilai `vendor` untuk 5 baris pertama   |
+| Build XML           | Membuat struktur XML `<products>` dan `<product>`   |
+| Save XML            | Menyimpan string XML hasil build ke file `.xml`     |
+
+---
+
+### 🗄️ Output
+
+File XML:
+
+```
+data/xml/products.xml
+```
+
+---
+
+## 🧠 Part 4 – Re-integrate
+
+### 🎯 Objective
+
+Membaca ketiga sumber data yang terdistribusi (SQLite, JSON, dan XML) dan menyatukannya kembali (join/merge) berdasarkan kolom `id` menjadi satu tabel utuh yang merepresentasikan data asli sebelum transformasi:
+
+* `id`
+* `product_name` (dari SQLite)
+* `price` (dari SQLite)
+* `stock` (dari JSON)
+* `vendor` (dari XML - memiliki 5 nilai kosong)
+* `date_added` (dari XML - format tanggal mentah)
+
+---
+
+### ⚙️ Workflow
+
+```text
+SQLite (DB) ──┐
+JSON (File) ──┼─→ Read & Join (Map O(N)) ──→ Reintegrated JSON File
+XML (File)  ──┘
+```
+
+---
+
+### 📄 Penjelasan File
+
+#### `apps/re-integrate/index.js`
+
+| Section                  | Fungsi                                                                    |
+| ------------------------ | ------------------------------------------------------------------------- |
+| Path Setup               | Menentukan lokasi DB, file JSON, file XML, dan folder output              |
+| Load SQLite Data         | Membaca data dari tabel `products` SQLite database                        |
+| Load JSON Data           | Membaca data operasional dari file JSON                                   |
+| Load XML Data            | Melakukan parsing data dari file XML menggunakan custom Regex parser      |
+| Join & Merge             | Menggunakan data struktur `Map` berbasis `id` untuk menggabungkan data    |
+| Write Reintegrated Data  | Menyimpan data hasil penggabungan ke file JSON                            |
+
+---
+
+### 🗄️ Output
+
+File Reintegrated JSON:
+
+```
+data/json/reintegrated_data.json
+```
+
+---
+
+## 🧠 Part 5 – Data Cleaning
+
+### 🎯 Objective
+
+Melakukan pembersihan data pada hasil re-integrasi dengan memenuhi aturan bisnis berikut:
+
+* Mengisi nilai `vendor` yang kosong dengan string `"Unknown Vendor"`.
+* Menstandardisasikan format kolom `date_added` menjadi format internasional baku (`YYYY-MM-DD`).
+
+---
+
+### ⚙️ Workflow
+
+```text
+Reintegrated Data → Fill Empty Vendors → Standardize Dates → Save Clean JSON & CSV
+```
+
+---
+
+### 📄 Penjelasan File
+
+#### `apps/data-cleaning/index.js`
+
+| Section                | Fungsi                                                                    |
+| ---------------------- | ------------------------------------------------------------------------- |
+| Path Setup             | Menentukan lokasi file reintegrated dan folder output final               |
+| Load Reintegrated Data | Membaca data hasil penggabungan                                           |
+| Clean Vendor           | Mendeteksi string vendor yang kosong dan menggantinya dengan `"Unknown Vendor"` |
+| Standardize Date       | Melakukan parsing berbagai format tanggal dan mengubahnya ke `YYYY-MM-DD` |
+| Save JSON & CSV        | Menyimpan dataset bersih ke dalam format `.json` dan `.csv` (tabular)     |
+
+---
+
+### 🗄️ Output
+
+File Bersih Hasil Pembersihan Data:
+
+```
+data/output/cleaned_data.json
+data/output/cleaned_data.csv
+```
 
 ---
 

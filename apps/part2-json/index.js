@@ -34,16 +34,19 @@ fs.createReadStream(CSV_PATH)
       const yyyy = dateObj.getFullYear()
       const formattedDate = `${mm} ${dd} ${yyyy}`
 
+      const productId = row.id || row["\ufeffid"] || row["﻿id"];
+
       // 3. Menyimpan data operasional
       // (simpan id untuk relasi, beserta 3 kolom operasional: stock, vendor, date_added)
       results.push({
-        id: Number(row.id),
+        id: Number(productId),
         stock: Number(row.stock),
         vendor: row.vendor || "Unknown",
         date_added: formattedDate // Sengaja diubah ke format MM DD YYYY
       })
     } catch (err) {
-      console.error(`❌ Error parsing row id ${row.id}:`, err.message)
+      const productId = row.id || row["\ufeffid"] || row["﻿id"];
+      console.error(`❌ Error parsing row id ${productId}:`, err.message)
     }
   })
   .on("end", () => {

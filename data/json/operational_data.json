@@ -1,600 +1,600 @@
 [
   {
-    "id": null,
+    "id": 1001,
     "stock": 15,
     "vendor": "Dell Indonesia",
     "date_added": "01 15 2023"
   },
   {
-    "id": null,
+    "id": 1002,
     "stock": 8,
     "vendor": "Apple Authorised",
     "date_added": "02 20 2023"
   },
   {
-    "id": null,
+    "id": 1003,
     "stock": 45,
     "vendor": "Logitech Official",
     "date_added": "03 05 2023"
   },
   {
-    "id": null,
+    "id": 1004,
     "stock": 12,
     "vendor": "Unknown",
     "date_added": "03 10 2023"
   },
   {
-    "id": null,
+    "id": 1005,
     "stock": 20,
     "vendor": "Samsung Parts",
     "date_added": "12 04 2023"
   },
   {
-    "id": null,
+    "id": 1006,
     "stock": 5,
     "vendor": "Asus Global",
     "date_added": "05 22 2023"
   },
   {
-    "id": null,
+    "id": 1007,
     "stock": 10,
     "vendor": "Apple Authorised",
     "date_added": "06 01 2023"
   },
   {
-    "id": null,
+    "id": 1008,
     "stock": 18,
     "vendor": "Sony Audio",
     "date_added": "07 15 2023"
   },
   {
-    "id": null,
+    "id": 1009,
     "stock": 7,
     "vendor": "SteelSeries Indo",
     "date_added": "08 10 2023"
   },
   {
-    "id": null,
+    "id": 1010,
     "stock": 50,
     "vendor": "WD Storage",
     "date_added": "08 12 2023"
   },
   {
-    "id": null,
+    "id": 1011,
     "stock": 30,
     "vendor": "Razer Official",
     "date_added": "09 01 2023"
   },
   {
-    "id": null,
+    "id": 1012,
     "stock": 6,
     "vendor": "Apple Authorised",
     "date_added": "09 15 2023"
   },
   {
-    "id": null,
+    "id": 1013,
     "stock": 14,
     "vendor": "Unknown",
     "date_added": "10 02 2023"
   },
   {
-    "id": null,
+    "id": 1014,
     "stock": 11,
     "vendor": "Bose Retail",
     "date_added": "10 10 2023"
   },
   {
-    "id": null,
+    "id": 1015,
     "stock": 3,
     "vendor": "Canon Optic",
     "date_added": "11 20 2023"
   },
   {
-    "id": null,
+    "id": 1016,
     "stock": 25,
     "vendor": "HyperX Gaming",
     "date_added": "11 25 2023"
   },
   {
-    "id": null,
+    "id": 1017,
     "stock": 9,
     "vendor": "Nintendo ID",
     "date_added": "12 05 2023"
   },
   {
-    "id": null,
+    "id": 1018,
     "stock": 4,
     "vendor": "Sony Entert",
     "date_added": "12 12 2023"
   },
   {
-    "id": null,
+    "id": 1019,
     "stock": 12,
     "vendor": "Microsoft Store",
     "date_added": "12 20 2023"
   },
   {
-    "id": null,
+    "id": 1020,
     "stock": 15,
     "vendor": "Amazon Global",
     "date_added": "12 25 2023"
   },
   {
-    "id": null,
+    "id": 1021,
     "stock": 10,
     "vendor": "GoPro Indo",
     "date_added": "01 05 2024"
   },
   {
-    "id": null,
+    "id": 1022,
     "stock": 5,
     "vendor": "DJI Official",
     "date_added": "01 10 2024"
   },
   {
-    "id": null,
+    "id": 1023,
     "stock": 40,
     "vendor": "TP-Link Store",
     "date_added": "01 15 2024"
   },
   {
-    "id": null,
+    "id": 1024,
     "stock": 22,
     "vendor": "Unknown",
     "date_added": "01 20 2024"
   },
   {
-    "id": null,
+    "id": 1025,
     "stock": 7,
     "vendor": "Samsung Parts",
     "date_added": "02 01 2024"
   },
   {
-    "id": null,
+    "id": 1026,
     "stock": 15,
     "vendor": "MSI Gaming",
     "date_added": "02 14 2024"
   },
   {
-    "id": null,
+    "id": 1027,
     "stock": 20,
     "vendor": "GSkill Indo",
     "date_added": "02 25 2024"
   },
   {
-    "id": null,
+    "id": 1028,
     "stock": 12,
     "vendor": "Seagate Official",
     "date_added": "03 01 2024"
   },
   {
-    "id": null,
+    "id": 1029,
     "stock": 30,
     "vendor": "Crucial Tech",
     "date_added": "03 15 2024"
   },
   {
-    "id": null,
+    "id": 1030,
     "stock": 4,
     "vendor": "Gigabyte Indo",
     "date_added": "03 20 2024"
   },
   {
-    "id": null,
+    "id": 1031,
     "stock": 18,
     "vendor": "BeQuiet Official",
     "date_added": "04 01 2024"
   },
   {
-    "id": null,
+    "id": 1032,
     "stock": 10,
     "vendor": "NZXT Store",
     "date_added": "04 05 2024"
   },
   {
-    "id": null,
+    "id": 1033,
     "stock": 8,
     "vendor": "Unknown",
     "date_added": "04 12 2024"
   },
   {
-    "id": null,
+    "id": 1034,
     "stock": 2,
     "vendor": "Zotac Official",
     "date_added": "04 20 2024"
   },
   {
-    "id": null,
+    "id": 1035,
     "stock": 6,
     "vendor": "Palit Tech",
     "date_added": "05 01 2024"
   },
   {
-    "id": null,
+    "id": 1036,
     "stock": 25,
     "vendor": "Inno3D Indo",
     "date_added": "05 10 2024"
   },
   {
-    "id": null,
+    "id": 1037,
     "stock": 4,
     "vendor": "Aorus Gaming",
     "date_added": "05 15 2024"
   },
   {
-    "id": null,
+    "id": 1038,
     "stock": 40,
     "vendor": "ASRock Official",
     "date_added": "05 22 2024"
   },
   {
-    "id": null,
+    "id": 1039,
     "stock": 60,
     "vendor": "Lian Li Store",
     "date_added": "06 01 2024"
   },
   {
-    "id": null,
+    "id": 1040,
     "stock": 5,
     "vendor": "Phanteks Indo",
     "date_added": "06 12 2024"
   },
   {
-    "id": null,
+    "id": 1041,
     "stock": 12,
     "vendor": "Thermaltake Off",
     "date_added": "06 20 2024"
   },
   {
-    "id": null,
+    "id": 1042,
     "stock": 35,
     "vendor": "Cooler Master ID",
     "date_added": "07 01 2024"
   },
   {
-    "id": null,
+    "id": 1043,
     "stock": 9,
     "vendor": "Unknown",
     "date_added": "07 05 2024"
   },
   {
-    "id": null,
+    "id": 1044,
     "stock": 14,
     "vendor": "FSP Power",
     "date_added": "07 15 2024"
   },
   {
-    "id": null,
+    "id": 1045,
     "stock": 10,
     "vendor": "Seasonic Official",
     "date_added": "07 25 2024"
   },
   {
-    "id": null,
+    "id": 1046,
     "stock": 20,
     "vendor": "Deepcool Indo",
     "date_added": "08 01 2024"
   },
   {
-    "id": null,
+    "id": 1047,
     "stock": 7,
     "vendor": "Noctua Tech",
     "date_added": "08 10 2024"
   },
   {
-    "id": null,
+    "id": 1048,
     "stock": 100,
     "vendor": "Arctic Official",
     "date_added": "08 15 2024"
   },
   {
-    "id": null,
+    "id": 1049,
     "stock": 15,
     "vendor": "Scythe Indo",
     "date_added": "08 22 2024"
   },
   {
-    "id": null,
+    "id": 1050,
     "stock": 50,
     "vendor": "ID-Cooling Store",
     "date_added": "09 01 2024"
   },
   {
-    "id": null,
+    "id": 1051,
     "stock": 40,
     "vendor": "WD Storage",
     "date_added": "09 05 2024"
   },
   {
-    "id": null,
+    "id": 1052,
     "stock": 80,
     "vendor": "Kingston Official",
     "date_added": "09 12 2024"
   },
   {
-    "id": null,
+    "id": 1053,
     "stock": 25,
     "vendor": "SanDisk Indo",
     "date_added": "09 20 2024"
   },
   {
-    "id": null,
+    "id": 1054,
     "stock": 30,
     "vendor": "TeamGroup Store",
     "date_added": "09 25 2024"
   },
   {
-    "id": null,
+    "id": 1055,
     "stock": 45,
     "vendor": "Unknown",
     "date_added": "10 01 2024"
   },
   {
-    "id": null,
+    "id": 1056,
     "stock": 18,
     "vendor": "Patriot Official",
     "date_added": "10 05 2024"
   },
   {
-    "id": null,
+    "id": 1057,
     "stock": 22,
     "vendor": "ADATA Tech",
     "date_added": "10 10 2024"
   },
   {
-    "id": null,
+    "id": 1058,
     "stock": 60,
     "vendor": "Hikvision Store",
     "date_added": "10 15 2024"
   },
   {
-    "id": null,
+    "id": 1059,
     "stock": 20,
     "vendor": "Lexar Official",
     "date_added": "10 22 2024"
   },
   {
-    "id": null,
+    "id": 1060,
     "stock": 35,
     "vendor": "Pioneer Indo",
     "date_added": "10 30 2024"
   },
   {
-    "id": null,
+    "id": 1061,
     "stock": 12,
     "vendor": "Transcend Official",
     "date_added": "11 01 2024"
   },
   {
-    "id": null,
+    "id": 1062,
     "stock": 55,
     "vendor": "Netac Tech",
     "date_added": "11 08 2024"
   },
   {
-    "id": null,
+    "id": 1063,
     "stock": 70,
     "vendor": "Colorful Indo",
     "date_added": "11 15 2024"
   },
   {
-    "id": null,
+    "id": 1064,
     "stock": 8,
     "vendor": "Unknown",
     "date_added": "11 20 2024"
   },
   {
-    "id": null,
+    "id": 1065,
     "stock": 3,
     "vendor": "Leadtek Store",
     "date_added": "11 28 2024"
   },
   {
-    "id": null,
+    "id": 1066,
     "stock": 5,
     "vendor": "PNY Official",
     "date_added": "12 01 2024"
   },
   {
-    "id": null,
+    "id": 1067,
     "stock": 25,
     "vendor": "Orico Store",
     "date_added": "12 05 2024"
   },
   {
-    "id": null,
+    "id": 1068,
     "stock": 100,
     "vendor": "UGREEN Official",
     "date_added": "12 12 2024"
   },
   {
-    "id": null,
+    "id": 1069,
     "stock": 40,
     "vendor": "Baseus Indo",
     "date_added": "12 18 2024"
   },
   {
-    "id": null,
+    "id": 1070,
     "stock": 30,
     "vendor": "Anker Official",
     "date_added": "12 25 2024"
   },
   {
-    "id": null,
+    "id": 1071,
     "stock": 45,
     "vendor": "Aukey Tech",
     "date_added": "12 30 2024"
   },
   {
-    "id": null,
+    "id": 1072,
     "stock": 60,
     "vendor": "Choetech Indo",
     "date_added": "01 05 2025"
   },
   {
-    "id": null,
+    "id": 1073,
     "stock": 20,
     "vendor": "Belkin Official",
     "date_added": "01 10 2025"
   },
   {
-    "id": null,
+    "id": 1074,
     "stock": 12,
     "vendor": "Unknown",
     "date_added": "01 15 2025"
   },
   {
-    "id": null,
+    "id": 1075,
     "stock": 50,
     "vendor": "Apple Authorised",
     "date_added": "01 22 2025"
   },
   {
-    "id": null,
+    "id": 1076,
     "stock": 35,
     "vendor": "Samsung Parts",
     "date_added": "01 28 2025"
   },
   {
-    "id": null,
+    "id": 1077,
     "stock": 80,
     "vendor": "Xiaomi Official",
     "date_added": "02 02 2025"
   },
   {
-    "id": null,
+    "id": 1078,
     "stock": 70,
     "vendor": "Huawei Store",
     "date_added": "02 10 2025"
   },
   {
-    "id": null,
+    "id": 1079,
     "stock": 40,
     "vendor": "Amazfit Indo",
     "date_added": "02 18 2025"
   },
   {
-    "id": null,
+    "id": 1080,
     "stock": 15,
     "vendor": "Garmin Official",
     "date_added": "02 25 2025"
   },
   {
-    "id": null,
+    "id": 1081,
     "stock": 5,
     "vendor": "Suunto Store",
     "date_added": "03 01 2025"
   },
   {
-    "id": null,
+    "id": 1082,
     "stock": 8,
     "vendor": "Polar Official",
     "date_added": "03 08 2025"
   },
   {
-    "id": null,
+    "id": 1083,
     "stock": 25,
     "vendor": "Unknown",
     "date_added": "03 15 2025"
   },
   {
-    "id": null,
+    "id": 1084,
     "stock": 10,
     "vendor": "Seiko Indo",
     "date_added": "03 22 2025"
   },
   {
-    "id": null,
+    "id": 1085,
     "stock": 12,
     "vendor": "Fossil Official",
     "date_added": "03 28 2025"
   },
   {
-    "id": null,
+    "id": 1086,
     "stock": 18,
     "vendor": "TicWatch Indo",
     "date_added": "04 01 2025"
   },
   {
-    "id": null,
+    "id": 1087,
     "stock": 20,
     "vendor": "Withings Tech",
     "date_added": "04 05 2025"
   },
   {
-    "id": null,
+    "id": 1088,
     "stock": 30,
     "vendor": "Fitbit Store",
     "date_added": "04 12 2025"
   },
   {
-    "id": null,
+    "id": 1089,
     "stock": 7,
     "vendor": "Wahoo Official",
     "date_added": "04 20 2025"
   },
   {
-    "id": null,
+    "id": 1090,
     "stock": 15,
     "vendor": "Bryton Indo",
     "date_added": "04 28 2025"
   },
   {
-    "id": null,
+    "id": 1091,
     "stock": 50,
     "vendor": "Cateye Store",
     "date_added": "05 01 2025"
   },
   {
-    "id": null,
+    "id": 1092,
     "stock": 4,
     "vendor": "Sennheiser Off",
     "date_added": "05 10 2025"
   },
   {
-    "id": null,
+    "id": 1093,
     "stock": 9,
     "vendor": "Unknown",
     "date_added": "05 15 2025"
   },
   {
-    "id": null,
+    "id": 1094,
     "stock": 20,
     "vendor": "AT Official",
     "date_added": "05 22 2025"
   },
   {
-    "id": null,
+    "id": 1095,
     "stock": 6,
     "vendor": "AKG Indo",
     "date_added": "06 01 2025"
   },
   {
-    "id": null,
+    "id": 1096,
     "stock": 35,
     "vendor": "Shure Store",
     "date_added": "06 08 2025"
   },
   {
-    "id": null,
+    "id": 1097,
     "stock": 12,
     "vendor": "FiiO Official",
     "date_added": "06 15 2025"
   },
   {
-    "id": null,
+    "id": 1098,
     "stock": 15,
     "vendor": "Topping Indo",
     "date_added": "06 22 2025"
   },
   {
-    "id": null,
+    "id": 1099,
     "stock": 10,
     "vendor": "Ifi Audio",
     "date_added": "06 28 2025"
   },
   {
-    "id": null,
+    "id": 1100,
     "stock": 20,
     "vendor": "JDS Labs Store",
     "date_added": "07 01 2025"
